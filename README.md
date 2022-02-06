@@ -36,6 +36,7 @@ https://www.cvedetails.com/cve/CVE-2022-23307/
 https://github.com/NCSC-NL/log4shell/blob/main/software/software_list_a.md
 
 |Software    |Versions|Status CVE-2021-4104|Status CVE-2021-44228|Status CVE-2021-45046|Status CVE-2021-45105|Notes         |Links|
+|------------|--------|--------------------|---------------------|---------------------|---------------------|--------------|-----|
 |Apache	Spark|All     |Not vuln            |Not vuln             |Not vuln             |Not vuln             |Uses log4j 1.x|https://lists.apache.org/thread/wwm13b9764vjms5t8n96j6jklys49cyr|
 
 ### Conclusion
@@ -50,8 +51,8 @@ missing, but never heard or seen that come up at all in 7 years in Spark)" - Pos
 ### Possible Actions
 
 * Check the log4j 1.x CVE list and make sure that the usage scenarios do not match the vunerabilities
-* * If the usage does not match the scenario, short term use is ok
-* * If the usage fits the vunerability scenario, an upgrade is needed immediately
+  * If the usage does not match the scenario, short term use is ok
+  * If the usage fits the vunerability scenario, an upgrade is needed immediately
 * Plan for an upgrade by contacting azure support to:-
-* * See when they will be upgrading the version of spark on the spark pools
-* * Verify that the new version of spark in the spark pools is secure (void from CVEs)
+  * See when they will be upgrading the version of spark on the spark pools
+  * Verify that the new version of spark in the spark pools is secure (void from CVEs)
