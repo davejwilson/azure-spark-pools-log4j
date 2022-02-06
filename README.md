@@ -47,6 +47,7 @@ handlers, but Spark does neither. (unless anyone can think of something I'm
 missing, but never heard or seen that come up at all in 7 years in Spark)" - Posted to dev@spark.apache.org
 
 * Log4J 1.x was end of life from August 5, 2015, advise is to upgrade to Log4J 2
+* Log4J 1.x contains 6 known CVEs
 
 ### Possible Actions
 
@@ -55,5 +56,6 @@ missing, but never heard or seen that come up at all in 7 years in Spark)" - Pos
   * If the usage fits the vunerability scenario, a spark upgrade is needed immediately
 * Plan for an upgrade by contacting azure support to:-
   * See when they will be upgrading the version of spark on the spark pools
+    * Request an upgrade, if they do not have one currently
   * Verify that the new version of spark in the spark pools is secure (void from CVEs)
   * Confirm that your usage of spark will work with the new version
