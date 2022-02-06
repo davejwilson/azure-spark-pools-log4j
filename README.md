@@ -1,0 +1,1 @@
+# azure-spark-pools-log4j
