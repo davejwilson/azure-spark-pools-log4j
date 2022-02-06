@@ -12,6 +12,8 @@ This document traces the status of log4j used by Azure Spark Pools.
 
 ### Maven Dependency
 
+https://github.com/apache/spark/blob/branch-3.1/pom.xml
+
 ```
 <log4j.version>1.2.17</log4j.version>
 ```
