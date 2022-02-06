@@ -54,7 +54,7 @@ missing, but never heard or seen that come up at all in 7 years in Spark)" - Pos
 * Check the log4j 1.x CVE list and make sure that the usage scenarios do not match the vunerabilities
   * If the usage does not match the scenario, plan to upgrade spark
   * If the usage fits the vunerability scenario, a spark upgrade is needed immediately
-* Plan for an upgrade by contacting azure support to:-
+* Plan for an upgrade:-
   * See if you can upgrade the version of spark on the spark pools
     * Request an upgrade, if they do not have one currently
   * Verify that the new version of spark in the spark pools is secure (void from CVEs)
